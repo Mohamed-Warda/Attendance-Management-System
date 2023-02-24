@@ -1,0 +1,180 @@
+@media only screen and (max-width:800px) {
+  #no-more-tables tbody,
+  #no-more-tables tr,
+  #no-more-tables td {
+      display: block;
+  }
+  #no-more-tables thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+  #no-more-tables td {
+      position: relative;
+      padding-left: 50%;
+      border: none;
+      border-bottom: 1px solid #eee;
+  }
+  #no-more-tables td:before {
+      content: attr(data-title);
+      position: absolute;
+      left: 6px;
+      font-weight: bold;
+  }
+  #no-more-tables tr {
+      border-bottom: 1px solid #ccc;
+  }
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #b4b7c8;
+  height: 100vh;
+  font-family: system-ui;
+}
+
+
+.date {
+  background-color: rgb(204, 104, 104);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.input-group {
+  width: 30rem;
+
+}
+
+#inputMonthly {
+
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+.logo {
+  margin: 0px;
+  margin-left: 28px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.logo span {
+  color: #f7403b;
+}
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #400508;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+
+.sidenav a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #e1dddd;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #8a3953;
+}
+
+.sidenav {
+  position: absolute;
+  top: 0;
+  right: 25px;
+
+  font-size: 36px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-left: 300px;
+}
+
+.head {
+  padding: 20px;
+}
+
+.col-div-6 {
+  width: 50%;
+
+}
+
+
+.nav2 {
+  display: none;
+
+}
+
+
+.icon-a:hover {
+  color: yellow !important;
+  ;
+}
+
+
+
+
+
+.icon-a {
+  font-size: 1px;
+}
+
+.btn {
+  float: right;
+}
+
+#pendingTable {
+
+  margin-left: 25px;
+  width: 95%;
+
+}
+
+#empTable {
+
+  margin-left: 25px;
+  width: 95%;
+
+}
+
+img {
+  cursor: pointer;
+}
+
+.TableHead{
+  margin: 0;
+ padding: 10px;
+  text-align: center;
+ 
+  font-weight: bold;
+
+}

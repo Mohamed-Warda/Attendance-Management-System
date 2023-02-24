@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fname": "Mohamed",
+      "lname": "Warda",
+      "userName": "mohamed",
+      "password": "123",
+      "flag": 1,
+      "age": "24",
+      "address": "Dakahliya-Mansoura",
+      "JobTitle": "System Admin",
+      "role": "admin",
+      "email": "mohamedward2a@gmail.com",
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "fname": "eslam",
+      "lname": "mohamed",
+      "userName": "eslam",
+      "password": "123",
+      "flag": 1,
+      "age": "24",
+      "address": "Dakahliya-Mansoura",
+      "JobTitle": "HR",
+      "role": "sub-admin",
+      "email": "eslammohamed@gmail.com",
+      "gender": "male"
+    },
+    {
+      "id": 3,
+      "fname": "eman",
+      "lname": "Warda",
+      "userName": "eman",
+      "JobTitle": "Software-Engineer",
+      "address": "Mansoura",
+      "role": "employee",
+      "age": "22",
+      "email": "emanwarda@gmail.com",
+      "gender": "female",
+      "password": "123",
+      "flag": 1
+    },
+    {
+      "id": 4,
+      "fname": "ayman",
+      "lname": "mohamed",
+      "userName": "ayman",
+      "password": "123",
+      "flag": 0,
+      "age": "24",
+      "address": "Dakahliya-Mansoura",
+      "JobTitle": "HR",
+      "role": "sub-admin",
+      "email": "aymanmohamed@gmail.com",
+      "gender": "male"
+    },
+    {
+      "id": 5,
+      "fname": "ammar",
+      "lname": "Warda",
+      "userName": "ammar",
+      "JobTitle": "software engineer",
+      "address": "Mansoura",
+      "role": "employee",
+      "age": "22",
+      "email": "ammarwarda2@gmail.com",
+      "gender": "male",
+      "password": "aAlmdaksm15*",
+      "flag": 0
+    },
+    {
+      "id": 6,
+      "fname": "Mohamed",
+      "lname": "Warda",
+      "userName": "mohmdwarda60",
+      "JobTitle": "software engineer",
+      "address": "Mansoura",
+      "role": "employee",
+      "age": "55",
+      "email": "mohmdward2a@gmail.com",
+      "gender": "male",
+      "password": "Askmelareujbds5*",
+      "flag": 0
+    }
+  ],
+  "attendance": [
+    {
+      "userId": 1,
+      "Date": "24-1-2023",
+      "arrivalTime": "14:57",
+      "departureTime": "16:25",
+      "lateTime": "6 h 27 m",
+      "Status": "Late",
+      "leaveConfirm": 2,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "Date": "24-1-2023",
+      "arrivalTime": "",
+      "departureTime": "",
+      "lateTime": "",
+      "Status": "Abesnt",
+      "leaveConfirm": 0,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "Date": "24-1-2023",
+      "arrivalTime": "14:6",
+      "departureTime": "16:26",
+      "lateTime": "5 h 36 m",
+      "Status": "Late",
+      "leaveConfirm": 2,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "Date": "25-1-2023",
+      "arrivalTime": "15:57",
+      "departureTime": "16:25",
+      "lateTime": "7 h 27 m",
+      "Status": "Late",
+      "leaveConfirm": 2,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "Date": "25-1-2023",
+      "arrivalTime": "",
+      "departureTime": "",
+      "lateTime": "",
+      "Status": "Abesnt",
+      "leaveConfirm": 0,
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "Date": "25-1-2023",
+      "arrivalTime": "16:6",
+      "departureTime": "16:26",
+      "lateTime": "7 h 36 m",
+      "Status": "Late",
+      "leaveConfirm": 2,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "Date": "24-2-2023",
+      "arrivalTime": "11:58",
+      "departureTime": "11:58",
+      "lateTime": "3 h 28 m",
+      "Status": "Late",
+      "leaveConfirm": 2,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "Date": "24-2-2023",
+      "arrivalTime": "",
+      "departureTime": "",
+      "lateTime": "",
+      "Status": "Abesnt",
+      "leaveConfirm": 0,
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "Date": "24-2-2023",
+      "arrivalTime": "",
+      "departureTime": "",
+      "lateTime": "",
+      "Status": "Abesnt",
+      "leaveConfirm": 0,
+      "id": 9
+    }
+  ]
+}

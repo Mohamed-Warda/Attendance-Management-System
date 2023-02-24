@@ -1,0 +1,177 @@
+* {
+    font-family: 'roboto';
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+
+ul {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font: bold 20px 'Segoe UI';
+    color: rgb(216, 56, 56);
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.473);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(60, 58, 58)
+}
+
+a:hover {
+    color: rgb(191, 194, 26)
+}
+
+#mainBody {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/coverHome.png');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    /* filter:blur(5px); */
+}
+
+#ITISection {
+    margin: 20px;
+    text-align: center;
+}
+
+#ITISection h1 {
+    color: brown;
+}
+
+#ITISection h3,
+#mainBody h2 {
+    font-weight: 300;
+    margin: 5px;
+}
+
+#mapSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#branches {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    font-weight: 500;
+    background-color: rgb(240, 239, 239);
+    color: #2e5266;
+    padding: 1rem;
+    text-align: center;
+    margin: 1vh;
+    width: 30%;
+}
+
+#checkBox {
+    width: 80%;
+}
+
+#checkBox label {
+    margin-right: 0.5vw;
+}
+
+#check1,
+#check2 {
+    border: 1px solid rgba(0, 0, 0, 0.562);
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+}
+
+.checkRed {
+    background-color: rgb(216, 55, 55);
+}
+
+.checkBlue {
+    background-color: lightblue;
+}
+
+#mainBranchSection {
+    color: brown;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    flex-wrap: wrap;
+}
+
+footer div {
+    margin-top: 10px;
+    color: white;
+    margin: 10px 0px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.fa-square-facebook:hover {
+    color: #3b5a9a
+}
+
+.fa-square-twitter:hover {
+    color: #1aa9e1;
+}
+
+.fa-square-youtube:hover {
+    color: #c3191e;
+}
+
+
+
+.button {
+    border-radius: 6rem;
+
+    min-width: 200px;
+    height: 50px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #f1f1f1;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg,
+            rgba(207, 28, 19) 0%,
+            rgba(199, 33, 11) 35%,
+            rgba(228, 97, 79) 100%);
+    cursor: pointer;
+}
+
+.button:hover {
+    background: linear-gradient(90deg,
+            rgb(228, 97, 79) 0%,
+            rgb(199, 33, 11) 35%,
+            rgb(207, 28, 19) 100%);
+}
+
+ul {
+    background-color: rgb(223, 90, 90);
+}

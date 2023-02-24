@@ -1,0 +1,31 @@
+body {
+
+    box-sizing: border-box;
+    background: linear-gradient(to right, #556270, #df2727);
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.row {
+
+    width: 100%;
+    border: 2px solid green;
+
+}
+
+#form {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 1%;
+}
+
+img {
+    border-radius: 10px;
+    height: 15vh;
+    width: 96%;
+}

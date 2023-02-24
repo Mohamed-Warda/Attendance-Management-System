@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mainWrapper {
+
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#secondWrapper {
+
+    height: 38rem;
+    width: 70rem;
+}
+
+h4 {
+    font-family: sans-serif;
+}
+
+.login-logo {
+    height: 3rem;
+}
+
+
+
+
+
+.loginVideo {
+    position: fixed;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
